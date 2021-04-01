@@ -99,6 +99,7 @@ img {
   align-items: center;
   margin-right: auto;
 }
+
 .logo {
   display: inline-block;
   color: #000000;
@@ -149,8 +150,7 @@ img {
 .link-contacts:hover,
 .link-contacts:focus {
   color: var(--accent-color);
-  /* outline: transparent;
-  opacity: 0.8; */
+ 
 }
 .link-contacts:hover .link-contacts-icon,
 .link-contacts:focus .link-contacts-icon {
@@ -161,7 +161,7 @@ img {
   fill: currentColor;
 }
 .link-contacts {
-  /* добавил падинги чтобы выровнять рамку при фокусе */
+ 
   padding-top: 1px;
   padding-bottom: 1px;
   display: flex;
@@ -369,18 +369,18 @@ img {
   height: 44px;
   border-radius: 50%;
 }
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--accent-color);
-}
-.social-icon {
-  fill: var(--icons-color);
-}
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-  fill: var(--primary-white-color);
-}
-/* Клиенты */
+  .social-link:hover,
+  .social-link:focus {
+    background-color: var(--accent-color);
+  }
+  .social-icon {
+    fill: var(--icons-color);
+  }
+  .social-link:hover .social-icon,
+  .social-link:focus .social-icon {
+    fill: var(--primary-white-color);
+  }
+/* клиенты */
 .clients-titel {
   font-weight: 700;
   font-size: 36px;
@@ -401,6 +401,7 @@ img {
   );
   margin-left: var(--section-clients-set-gap);
 }
+
 .clients-link {
   display: flex;
   justify-content: center;
@@ -442,7 +443,7 @@ img {
   widows: 206px;
   margin-left: 70px;
 }
-/* думал через strong но сильно меняется жирность */
+
 .go-us {
   font-weight: 700;
   font-size: 14px;
@@ -461,6 +462,7 @@ img {
 .social-link.end:focus {
   background-color: var(--accent-color);
 }
+
 /* portfolio */
 
 /* button */
